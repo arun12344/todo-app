@@ -1,0 +1,14 @@
+header {
+    background-color: thistle;
+    display: flex;
+    height: 100px;
+}
+
+.display {
+    font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}

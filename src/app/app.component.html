@@ -1,22 +1,3 @@
-<h2>
-  MY TO-DO APP
-</h2>
-<form class="example-form" (ngSubmit)="onSubmit()">
-  <mat-form-field class="example-full-width">
-    <mat-label>Title</mat-label>
-    <input matInput name="title" placeholder="Ex. Pizza" [(ngModel)]="title">
-  </mat-form-field>
-
-  <mat-form-field class="example-full-width">
-    <mat-label>Enter the description</mat-label>
-    <textarea matInput name="description" placeholder="Ex. It makes me feel..." [(ngModel)]="description"></textarea>
-  </mat-form-field>
-  <section>
-
-    <div class="example-button-row center-btn">
-      <button mat-flat-button color="primary" type="submit">Submit</button>
-    </div>
-  </section>
-
-  <mat-divider></mat-divider>
-</form>
+<div>
+    <app-display-tasks />
+</div>

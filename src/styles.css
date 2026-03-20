@@ -14,3 +14,11 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 .mat-mdc-outlined-button {
   border-radius: 12px !important;
 }
+/* ✅ Full Page Real App Background */
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(135deg, #eef2ff, #fdf2f8, #ecfeff);
+  min-height: 100vh;
+}
+

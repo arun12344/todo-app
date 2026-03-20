@@ -1,0 +1,15 @@
+<div>
+    <app-create-tasks (tasks)="displaytasks($event)" />
+
+</div>
+<hr>
+<mat-card class="output-card">
+    <h3 class="output-heading">Output</h3>
+    @for (task of alltasks; track task) {
+    <div class="output-box">
+        <p><strong>Title:</strong> {{task.title}}</p>
+        <p><strong>Description:</strong> {{task.description}}</p>
+    </div>
+    }
+
+</mat-card>
